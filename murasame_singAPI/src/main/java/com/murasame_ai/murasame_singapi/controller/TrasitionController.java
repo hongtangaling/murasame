@@ -20,8 +20,8 @@ import java.util.List;
 @RestController
 @RequestMapping("/murasamesing/")
 public class TrasitionController {
-    private static final String APP_ID = "20231203001899697";
-    private static final String SECURITY_KEY = "E4XwCoRKqZta5NqQYuuC";
+    private static final String APP_ID = "";
+    private static final String SECURITY_KEY = "";
 
 
     /**
@@ -81,7 +81,7 @@ public class TrasitionController {
     /**
      * 聊天端点
      */
-    public String openaiApiKey = "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";
+    public String openaiApiKey = "";
 
     @PostMapping("chat")
     public R chat(@RequestBody List<ChatMessage> messageList) throws IOException {
